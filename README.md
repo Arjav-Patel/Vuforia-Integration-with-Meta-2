@@ -10,3 +10,6 @@ I recommend following along with the Wiki to make sure everything is correct.
 For example, one thing which will definitely not import correctly are the Player settings. 
 
 Also, the wiki goes over how to do "custom" calibration.
+
+If I forgot anything, or something does not work, let me know and I'll try to help.
+Email: arjav.patel@uwaterloo.ca
