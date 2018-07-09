@@ -3,7 +3,7 @@ A guide on using Vuforia with the Meta 2 headset
 
 Check out the Wiki for instructions.
 
-[Unity Test Project](https://drive.google.com/open?id=1mIHNy9Rb9lQfF5OrBDGqv49ZbxDvQK96)
+[Unity Project](https://drive.google.com/open?id=1IlvdXLJH_sL3lD5bH1OB0Mf6EBZaZUgP)
 
 I recommend following along with the Wiki to make sure everything is correct.
 
