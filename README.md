@@ -7,6 +7,8 @@ Check out the Wiki for instructions.
 
 I recommend following along with the Wiki to make sure everything is correct.
 
+> IMPORTANT: importing the package might break some dependacies. If it does, just follow the tutorial, and it'll allow you to re-create the project from scratch in about 10 minutes.
+
 For example, one thing which will definitely not import correctly are the Player settings. 
 
 Also, the wiki goes over how to do "custom" calibration.
