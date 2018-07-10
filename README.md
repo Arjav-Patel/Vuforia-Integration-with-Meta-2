@@ -1,9 +1,9 @@
-# Vuforia-Integration-with-Meta-2
+# Vuforia Integration with Meta2
 A guide on using Vuforia with the Meta 2 headset
 
 Check out the Wiki for instructions.
 
-[Unity Project](https://drive.google.com/open?id=1IlvdXLJH_sL3lD5bH1OB0Mf6EBZaZUgP)
+[Unity Project](https://drive.google.com/open?id=1cy8FGb3i6nX0rWGvJTwYnxXP49Auz8Fm)
 
 I recommend following along with the Wiki to make sure everything is correct.
 
