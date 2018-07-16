@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +10,7 @@ public class Offset : MonoBehaviour
     // Marker Components
     public GameObject Marker;
     Transform MarkerTransform;
+    CustomTrackableEventHandler Tracker;
 
     // Image Components
     Renderer ImageRenderer;
@@ -23,13 +24,33 @@ public class Offset : MonoBehaviour
     {
         // Marker Components
         MarkerTransform = Marker.transform;
+        Tracker = Marker.GetComponent<CustomTrackableEventHandler>();
 
         // Image Components
         ImageRenderer = gameObject.GetComponent<Renderer>();
+        // Always start with the mesh renderer disabled
+        ImageRenderer.enabled = false;
     }
 
     private void Update()
     {
+        // Only change renderer settings if tracker state has been changed (found to lost, or lost to found)
+        if (Tracker.changedState)
+        {
+            // Tracker is found, enabled the mesh renderer
+            if (Tracker.found)
+            {
+                ImageRenderer.enabled = true;
+            }
+            // Tracker is lost, disable the mesh renderer
+            else
+            {
+                ImageRenderer.enabled = false;
+            }
+            Tracker.changedState = false;
+        }
+        
+
         // Target is found
         if (ImageRenderer.enabled)
         {
