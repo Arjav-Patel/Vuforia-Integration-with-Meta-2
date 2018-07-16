@@ -13,5 +13,10 @@ For example, one thing which will definitely not import correctly are the Player
 
 Also, the wiki goes over how to do "custom" calibration.
 
+UPDATE:
+
+I made a couple minor changes so that the rendering issues are fixed. The cube will now stop rendering when the marker is lost.
+The relevant changes are in STEP 7, and STEP 11.
+
 If I forgot anything, or something does not work, let me know and I'll try to help.
 Email: arjav.patel@uwaterloo.ca
