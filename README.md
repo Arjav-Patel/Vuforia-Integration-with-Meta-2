@@ -19,4 +19,3 @@ I made a couple minor changes so that the rendering issues are fixed. The cube w
 The relevant changes are in STEP 7, and STEP 11.
 
 If I forgot anything, or something does not work, open up an issue and I'll try to help.
-Email: arjav.patel@uwaterloo.ca
